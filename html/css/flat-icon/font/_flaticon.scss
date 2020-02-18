@@ -1,0 +1,109 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 15/04/2017 08:33
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-building-3:before { content: "\f100"; }
+.flaticon-engineer:before { content: "\f101"; }
+.flaticon-building-2:before { content: "\f102"; }
+.flaticon-house-3:before { content: "\f103"; }
+.flaticon-house-2:before { content: "\f104"; }
+.flaticon-real-estate:before { content: "\f105"; }
+.flaticon-house-1:before { content: "\f106"; }
+.flaticon-house:before { content: "\f107"; }
+.flaticon-city-hall-1:before { content: "\f108"; }
+.flaticon-city-hall:before { content: "\f109"; }
+.flaticon-monument:before { content: "\f10a"; }
+.flaticon-bar:before { content: "\f10b"; }
+.flaticon-skyscraper:before { content: "\f10c"; }
+.flaticon-office-block:before { content: "\f10d"; }
+.flaticon-cityscape:before { content: "\f10e"; }
+.flaticon-building-1:before { content: "\f10f"; }
+.flaticon-university-1:before { content: "\f110"; }
+.flaticon-library:before { content: "\f111"; }
+.flaticon-university:before { content: "\f112"; }
+.flaticon-food-cart:before { content: "\f113"; }
+.flaticon-hostel:before { content: "\f114"; }
+.flaticon-building:before { content: "\f115"; }
+.flaticon-skyline:before { content: "\f116"; }
+.flaticon-construction:before { content: "\f117"; }
+.flaticon-bus-stop:before { content: "\f118"; }
+.flaticon-vending-machine:before { content: "\f119"; }
+.flaticon-supermarket:before { content: "\f11a"; }
+.flaticon-factory:before { content: "\f11b"; }
+.flaticon-museum:before { content: "\f11c"; }
+.flaticon-playground:before { content: "\f11d"; }
+.flaticon-coffee-shop:before { content: "\f11e"; }
+.flaticon-hospital:before { content: "\f11f"; }
+.flaticon-gas-station:before { content: "\f120"; }
+.flaticon-buildings:before { content: "\f121"; }
+.flaticon-park:before { content: "\f122"; }
+    
+    $font-Flaticon-building-3: "\f100";
+    $font-Flaticon-engineer: "\f101";
+    $font-Flaticon-building-2: "\f102";
+    $font-Flaticon-house-3: "\f103";
+    $font-Flaticon-house-2: "\f104";
+    $font-Flaticon-real-estate: "\f105";
+    $font-Flaticon-house-1: "\f106";
+    $font-Flaticon-house: "\f107";
+    $font-Flaticon-city-hall-1: "\f108";
+    $font-Flaticon-city-hall: "\f109";
+    $font-Flaticon-monument: "\f10a";
+    $font-Flaticon-bar: "\f10b";
+    $font-Flaticon-skyscraper: "\f10c";
+    $font-Flaticon-office-block: "\f10d";
+    $font-Flaticon-cityscape: "\f10e";
+    $font-Flaticon-building-1: "\f10f";
+    $font-Flaticon-university-1: "\f110";
+    $font-Flaticon-library: "\f111";
+    $font-Flaticon-university: "\f112";
+    $font-Flaticon-food-cart: "\f113";
+    $font-Flaticon-hostel: "\f114";
+    $font-Flaticon-building: "\f115";
+    $font-Flaticon-skyline: "\f116";
+    $font-Flaticon-construction: "\f117";
+    $font-Flaticon-bus-stop: "\f118";
+    $font-Flaticon-vending-machine: "\f119";
+    $font-Flaticon-supermarket: "\f11a";
+    $font-Flaticon-factory: "\f11b";
+    $font-Flaticon-museum: "\f11c";
+    $font-Flaticon-playground: "\f11d";
+    $font-Flaticon-coffee-shop: "\f11e";
+    $font-Flaticon-hospital: "\f11f";
+    $font-Flaticon-gas-station: "\f120";
+    $font-Flaticon-buildings: "\f121";
+    $font-Flaticon-park: "\f122";
