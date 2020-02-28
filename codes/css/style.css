@@ -1237,7 +1237,7 @@ span#basket-icon .badge{ margin-top: -25px; color: #fff; background-color:#2e0b4
 /** About Us ( index 2 ) **/
 .aboutus-index-2{}
 .aboutus-index-2{
-	background:url(../images/background-images/index-2-aboutus-background-image.jpg); 
+	background:url(../images/background-images/about-us-index.jpg); 
 	background-size:contain; 
 	background-position:top left; 
 	background-repeat: no-repeat; 
@@ -1251,7 +1251,7 @@ span#basket-icon .badge{ margin-top: -25px; color: #fff; background-color:#2e0b4
 .aboutus-index-2-effect h2 {
 	font-size:35.764px; 
 	font-family:"Oswald"; 
-	color:rgb(136, 136, 136); 
+	color:#fff; 
 	font-weight:bold; 
 	text-transform:uppercase; 
 	line-height:2.908; 
@@ -2986,6 +2986,7 @@ span#basket-icon .badge{ margin-top: -25px; color: #fff; background-color:#2e0b4
 	background-size:cover;
 	height:400px;
 	width:100%;
+	margin-top: -20px;
 }
 .pagebg #cssmenu,.pagebg #cssmenu #menu-button,.pagebg #cssmenu ul,.pagebg #cssmenu ul li,.pagebg #cssmenu ul li a{
 	background-color:transparent;
