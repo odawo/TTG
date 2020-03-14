@@ -1317,12 +1317,12 @@ img.tp-slider-alternative-image	{
 .tp-bullets						{	position:absolute; display:block; z-index:1000; top:0px; left:0px;}
 
 .tp-tab,
-.tp-thumb 						{	cursor: pointer; position:absolute;opacity:0.5;  box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+.tp-thumb 						{	cursor: pointer; position:absolute;opacity:0.5;  -moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
 
 .tp-arr-imgholder,
 .tp-videoposter,
 .tp-thumb-image,
-.tp-tab-image					{	background-position: center center; background-size:cover;width:100%;height:100%; display:block; position:absolute;top:0px;left:0px;}
+.tp-tab-image					{	background-position: center center; background-size:cover; display:block; position:absolute;top:0px;left:0px;}
 
 .tp-tab:hover,
 .tp-tab.selected,

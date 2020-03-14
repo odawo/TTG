@@ -45,7 +45,7 @@
       <!-- SLIDE  1-->
       <li data-index="rs-1697" data-transition="slideremovehorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="800" data-thumb="assets/home-1/home-bg2-thumb.png"  data-rotate="0" data-fstransition="fade" data-fsmasterspeed="800" data-fsslotamount="7" data-saveperformance="off" data-title="Slide"> 
         <!-- MAIN IMAGE --> 
-        <img src="assets/home-1/home-bg1.png" alt="" data-lazyload="assets/home-1/home-bg1.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina> 
+        <img src="assets/home-1/home-bg1.png" alt="" data-lazyload="assets/home-1/home-bg1.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina> -->
         
         <!-- LAYERS --> 
         
@@ -190,7 +190,7 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="text-left-vertical">
-              <h1 data-after-text="Welcome" data-before-text="01" class="heading-content"> <span class="heading-text" data-lead-text="teratrigg geo ltd">welcome <span class="heading-lead-text">to our space</span></span> </h1>
+              <h1 data-after-text="Welcome" data-before-text="01" class="heading-content"> <span class="heading-text" data-lead-text="teratrig geo ltd">welcome <span class="heading-lead-text">to our space</span></span> </h1>
               <p class="is-mt-20 is-mb-20 Exs-mt-40 ">TTG is constituted on the basis of professional excellence. We employ the best task force for every project we do which makes us providers of geospatial solutions that pass the tests of. </p>
               <a href="about-us.html" class="pull-right btn-link"> View More </a> </div>
           </div>
@@ -198,7 +198,7 @@
         <div class="row aboutus">
           <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"><img alt="gis" src="images/about-us/home-index.png" class="img-responsive welcome-section-image"></div>
           <div class="col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 col-sm-offset-1 col-sm-5 ">
-            <h2 class="aboutus-heading">Geospatial <span class="cta-heading-color">World</span></h2>
+            <h2 class="aboutus-heading">World of <span class="cta-heading-color">Geospatial</span></h2>
             <p class="aboutus-content">The application of GIS is only limited by those who use it </p>
           </div>
         </div>
@@ -216,9 +216,9 @@
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="cta-section">
           <div class="cta-caption">
-            <h2 class="cta-content">A few words <span class="heading-black">about our works</span><br/>
+            <h2 class="cta-content">A representation <span class="heading-black" style="color: grey;">of reality</span><br/>
             </h2>
-            <h2 class="cta-bold-heading">Geospatial STH STH</h2>
+            <h2 class="cta-bold-heading">Revealing Insights</h2>
             <div class="row">
               <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
                 <div class="cta-image"> 
@@ -385,7 +385,7 @@
            <div class="service-v1">
               <i class="flaticon-gps-2"></i>
            </div>
-           <h3 class="service-title"><a target="#" href="#">GLOBAL COVERAGE</a></h3>
+           <h3 class="service-title"><a href="#">GLOBAL COVERAGE</a></h3>
            <p class="is-mb-0"> We take advantage of the available geospatial technology that allow global coverage of the earth. Products such as satellite imagery of any part of the world, at various resolutions can also be acquired through our well established partners. </p>
         </div>
       </div>
@@ -394,7 +394,7 @@
            <div class="service-v1">
               <i class="flaticon-recommended"></i>
            </div>
-           <h3 class="service-title"><a target="#" href="#">AFFORDABILITY</a></h3>
+           <h3 class="service-title"><a href="#">AFFORDABILITY</a></h3>
            <p class="is-mb-0">While still maintaining the quality of our products TTG offers geosolutions at great offers giving our clients optional payment schemes as well. </p>
         </div>
       </div>
@@ -438,9 +438,12 @@
           <div class="col-lg-7 col-md-7 newslatter-cross-image hidden-sm hidden-xs">
             <h1 class="newslatter-heading">NEWSLETTER</h1>
             <div class="newslatter-section">
-              <div class="input-group newslatter-form">
-                <input type="email" class="form-control newslatter-input" placeholder="email@example.com" aria-describedby="basic-addon2">
-                <span class="input-group-addon btn btn-primary" id="basic-addon2">subscribe</span> </div>
+              <form action="mailnews.php" method="post">
+                <div class="input-group newslatter-form">
+                  <input type="email" name="email" class="form-control newslatter-input" placeholder="email@example.com" aria-describedby="basic-addon2">
+                  <span class="input-group-addon btn btn-primary" id="basic-addon2" value="submit">subscribe</span> 
+                </div>
+              </form>
             </div>
           </div>
         </div>
