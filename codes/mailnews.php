@@ -1,19 +1,24 @@
+
 <?php 
-	$link = mysqli_connect("localhost", "udoobrys_root", "", "udoobrys_newslettermailing");
+	$svr = "localhost";
+	$dbs = "udoobrys_newslettermailing";
+	$name = "udoobrys_root";
+	$pass = "0202tERAttg";
 
-	if($link === false){
-		die("ERROR: Could not connect.".mysql_connect_error());
-	}
+	$db_conn = mysqli_connect($svr, $name, $pass, $dbs);
 
-	$email = mysqli_real_escape_string($link, $_REQUEST['email']);
 
-	$sql = "INSERT INTO newsletter_mail (emails) VALUES ('$email')";
+	#$email = mysqli_real_escape_string($link, $_REQUEST['email']);
+	$email = $_POST['email'];
 
-	if (mysqli_query($link, $sql)) {
-		echo "Subscribed to our Newsletter!";
-	} else {
-		echo "Error! Could not complete your subscription at the moment. Please try again later. $sql".mysqli_error($link);
-	}
+	$my_Insert = "INSERT INTO newsletter_mail (emails) VALUES ($email)";
 
-	mysqli_close($link);
+	
+	mysqli_query($db_conn, $my_Insert);
+
+	echo "added";
+
+	mysqli_close($db_conn);
 ?>
+
+

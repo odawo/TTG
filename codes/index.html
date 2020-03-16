@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>TTG</title>
-<link rel="icon" type="image/icon" href="images/favicon.png">
+<link rel="icon" type="image/icon" href="images/faviconttg.ico">
 <!-- favicon-icon -->
 
 
@@ -25,6 +25,14 @@
 <link rel="stylesheet" media="all" type="text/css" href="css/style.css"><!-- Custom StyleSheet -->
 <link rel="stylesheet" type="text/css" href="revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"><!-- LOADING ICONS Pe Stroke 7 -->
 <link rel="stylesheet" type="text/css" href="revolution/css/settings-slider-1.css"><!-- REVOLUTION LAYERS STYLES -->
+
+
+<script>
+  $('.input-group-addon').click(function(event) {
+    
+  });
+</script>
+
 </head>
 <body>
 <!-- preloader -->  
@@ -436,19 +444,19 @@
             </div>
           </div>
           <div class="col-lg-7 col-md-7 newslatter-cross-image hidden-sm hidden-xs">
-            <h4 class="newslatter-heading" style="margin-bottom: 80px; margin-left: 170px; font-size: 25px;">coming soon</h4>
+            <!--<h4 class="newslatter-heading" style="margin-bottom: 80px; margin-left: 170px; font-size: 25px;">coming soon</h4>-->
             <h1 class="newslatter-heading">NEWSLETTER</h1>
             <div class="newslatter-section">
               <form action="mailnews.php" method="POST">
                 <div class="input-group newslatter-form">
-                  <input type="email" name="email" class="form-control newslatter-input" placeholder="email@example.com" aria-describedby="basic-addon2">
-                  <span class="input-group-addon btn btn-primary" id="basic-addon2" value="submit">subscribe</span> 
+                  <input style="width:60%; float: left; margin-left: 100px;" type="text" name="email" class="form-control newslatter-input" placeholder="email@example.com" aria-describedby="basic-addon2" required>
+                  <input class="input-group-addon btn btn-primary" id="basic-addon2" type="submit" name="submit" value="subscribe" style="width: 100px;" />
                 </div>
               </form>
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   </div>
 </div>
@@ -466,6 +474,8 @@
 </div>
 <!-- /Tiny Footer Section --> 
 <a href="#" class="cd-top">Top</a>
+
+
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script> 
 
